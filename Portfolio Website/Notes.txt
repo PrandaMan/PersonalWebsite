@@ -1,0 +1,11 @@
+Todo:
+1. Create the files and stuff
+2. Create and design cover page
+    - picture
+    - "About me" blurb"
+    - navigation
+        icon -> home
+        + Home
+        + About
+        + Projects
+        + Contact

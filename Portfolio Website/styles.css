@@ -1,0 +1,73 @@
+body {
+    background: #e5e5e5;
+    height: 100vh;
+    border-bottom: 200;
+}
+
+.nav_wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-family: cursive;
+}
+
+.left_side{
+    position: absolute; 
+    left: 20px; 
+    top: -75px;
+}
+
+.middle_stuff > img {
+    position: absolute;
+    width: 675px;
+    height: 675px;
+    bottom: -20px;
+    left: 550px;
+}
+
+.right_side {
+    display: flex;
+    padding: 60px;
+    font-size: 30px;
+}
+
+.nav_wrapper > .right_side > div {
+    margin-left: 20px;
+}
+
+.nav_link_wrapper a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav_link_wrapper a:hover {
+    color: rgb(51, 145, 233);
+}
+
+.nav_link_wrapper {
+    height: 34px;
+    transition: bottom-bottom 0.5s;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+  
+  .nav_link_wrapper:hover, .nav_link_wrapper:focus, .nav_link_wrapper:active {
+    -webkit-transform: skew(-10deg);
+    transform: skew(-10deg);
+}
+
+/* bacground color maybe #FDB750
+https://css-tricks.com/lets-make-one-of-those-fancy-scrolling-animations-used-on-apple-product-pages/
+https://ianlunn.github.io/Hover
+https://www.oberlo.com/blog/color-combinations-cheat-sheet
+https://www.youtube.com/watch?v=muE2B0Zylbw
+/
